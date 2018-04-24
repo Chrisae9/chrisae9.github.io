@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo');
 
 html {
+	height: 90%;
 	background: url(whale.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
