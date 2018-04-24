@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+
+html, body {
+	height: 90%;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	height: 100%;
+
+	font-family: 'Cardo', serif;
+}
+
+.row {
+	display: flex;
+}
+
+#name {
+	font-size: 5em;
+}
+
+.column {
+	margin-left: 1em;
+	margin-right: 1em;
+
+	text-align: center;
+}
