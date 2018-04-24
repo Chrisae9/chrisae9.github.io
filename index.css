@@ -2,7 +2,10 @@
 
 html, body {
 	background-image: url("whale.png");
-    background-color: #cccccc;
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 	height: 90%;
 }
 
