@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo');
 
 html, body {
-	background-image: url("whale.png");
-	background-color: #cccccc;
-	background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-	height: 90%;
+	background: url(whale.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .main {
