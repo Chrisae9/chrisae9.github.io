@@ -70,3 +70,6 @@ yarn-error.log
 
 # NPM lock file
 package-lock.json
+
+# Jekyll
+_site/
