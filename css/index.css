@@ -2,7 +2,7 @@
 html,
 body {
     height: 90%;
-    background: url(whale.png) no-repeat center center fixed;
+    background: url(../resources/pictures/whale.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
