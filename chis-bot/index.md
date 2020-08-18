@@ -11,10 +11,10 @@ python3.8 -m pip install pipenv
 pipenv install
 ```
 
-Create a [config.json](config-example.json) file. 
+Create a [config.json](chis-bot/blob/master/config-example.json) file. 
 This will contain the bot token, prefix, and list of owners.
 
-[`./run.sh`](run.sh)
+[`./run.sh`](chis-bot/blob/master/run.sh)
 
 ### Usage
 
