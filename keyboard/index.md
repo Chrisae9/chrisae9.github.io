@@ -23,7 +23,7 @@
 - GK64 XD64 DZ60 PBT keycaps - black & light gray (Cherry profile)
 - Gray DSA spacebars (2.75/1.25/2.25)
 - Zelios 65g switches (lubed with Krytox 205)
-- Stabilizers are "band-aid modded"
+- Band-aid modded Stabilizers
 - DZ60 60% USB-C PCB
 - 60% aluminum low profile black case from KBDfans
 
