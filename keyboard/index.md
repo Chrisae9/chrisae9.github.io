@@ -1,15 +1,5 @@
 ## Keyboard
-
-My very own custom built keyboard. 
-- Mountain escape key (SA profile)
-- GK64 XD64 DZ60 PBT keycaps - black & light gray (Cherry profile)
-- Gray DSA spacebars (2.75/1.25/2.25)
-- Zelios 65g switches (lubed with Krytox 205)
-- Stabilizers are "band-aid modded"
-- DZ60 60% USB-C PCB
-- 60% aluminum low profile black case from KBDfans
-
-![Keyboard](https://i.imgur.com/qyWgShY.png)
+![Keyboard](pictures/keyboard.png)
 
 ### Layout
 <details>
@@ -26,6 +16,16 @@ My very own custom built keyboard.
     <summary>Media Layout</summary>
     <img href="media" src="pictures/media.png"/>
 </details>
+
+### Parts
+
+- Mountain escape key (SA profile)
+- GK64 XD64 DZ60 PBT keycaps - black & light gray (Cherry profile)
+- Gray DSA spacebars (2.75/1.25/2.25)
+- Zelios 65g switches (lubed with Krytox 205)
+- Stabilizers are "band-aid modded"
+- DZ60 60% USB-C PCB
+- 60% aluminum low profile black case from KBDfans
 
 ### Firmware
 
