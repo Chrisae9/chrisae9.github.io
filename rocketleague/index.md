@@ -2,29 +2,31 @@
 
 A quick tutorial for configuring Rocket League custom maps.
 
-### Step 1
+<img href="Rocket League" src="pictures/rl.png" width="250"/>
+
+#### Step 1
 
 Install [Bakkes Mod](https://www.bakkesmod.com/) and run the program.
 
-### Step 2
+#### Step 2
 
 Install [Rocket Plugin](https://bakkesplugins.com/plugins/view/26).
 
-### Step 3
+#### Step 3
 
 Download Additional [Workshop Textures](https://drive.google.com/file/d/1te3LAFnmeKUemYHiIcmu-tnu_0uF4dSR/view?usp=sharing) and copy them to your game installation directory.  
 ```
 C:\Program Files (x86)\Steam\steamapps\common\rocketleague\TAGame\CookedPCConsole
 ```
 
-### Step 4
+#### Step 4
 
 Create a new folder called `mods` in `CookedPCConsole`, the full path should look something like  
 ```
 C:\Program Files (x86)\Steam\steamapps\common\rocketleague\TAGame\CookedPCConsole\mods
 ```
 
-### Step 5
+#### Step 5
 
 Download the desired custom map from [My Google Drive Folder](https://drive.google.com/drive/folders/1q3n5r0Bt7Bqod50DCY58IottOdgv0JcM?usp=sharing).  
 
@@ -33,7 +35,7 @@ Rename the custom map to `Labs_Underpass_P.upk` and place in the newly created `
 C:\Program Files (x86)\Steam\steamapps\common\rocketleague\TAGame\CookedPCConsole\mods\Labs_Underpass_P.upk
 ```
 
-### Step 6
+#### Step 6
 
 Launch Rocket League.  
 Open BakkesMod using `F2`.  
