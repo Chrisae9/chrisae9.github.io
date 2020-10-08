@@ -37,9 +37,18 @@ C:\Program Files (x86)\Steam\steamapps\common\rocketleague\TAGame\CookedPCConsol
 
 #### Step 6
 
-Launch Rocket League.  
+Launch Rocket League.
 Open BakkesMod using `F2`.  
 Switch to the Rocket Plugin, located under the plugin tab.  
 Type in the correct IP and Port.
 
 Enjoy :)
+
+#### Extras
+
+Camera Settings
+- Rocket League is a flashy game and by default has awful camera settings.  
+Here are my camera settings,  
+<img href="Rocket League" src="pictures/rl_camera_settings.png" width="300"/>
+
+
