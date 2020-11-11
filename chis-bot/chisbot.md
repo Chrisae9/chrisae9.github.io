@@ -1,11 +1,10 @@
-## Chis Bot
+# Chis Bot
 
 [![chisbot](../resources/pictures/chisbot.png)](https://discord.com/api/oauth2/authorize?client_id=724657775652634795&permissions=8&scope=bot)
 
 A Discord bot that provides users with a simple interface to plan pick up Valorant games.  
-Once this bot becomes verified on the [Riot Developer Portal](https://developer.riotgames.com/), the API's match statistics will aid in team selections.
 
-### Usage
+## Usage
 
 *For additional information, run `$help` bot comand*
 
@@ -21,6 +20,7 @@ Once this bot becomes verified on the [Riot Developer Portal](https://developer.
 | $map    | Randomly picks a Valorant map                                                     |
 
 Notes:  
+
 - *Accepted types for users: @Name, Name, "Name With Spaces"*
 
 *Please give support to [zacharied](https://github.com/zacharied) for the wonderful [Discord React-Prompt library](https://github.com/zacharied/discord-eprompt).*

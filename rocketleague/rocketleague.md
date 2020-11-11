@@ -2,7 +2,7 @@
 
 A quick tutorial for configuring Rocket League custom maps.
 
-<img href="Rocket League" src="pictures/rl.png" width="250"/>
+<img href="Rocket League" src="pictures/custom_maps.png" width="550" style="border-radius: 25px;"/>
 
 #### Step 1
 
@@ -48,7 +48,6 @@ Enjoy :)
 
 Camera Settings
 - Rocket League is a flashy game and by default has awful camera settings.  
-Here are my camera settings,  
-<img href="Rocket League" src="pictures/rl_camera_settings.png" width="300"/>
+Here are my camera settings:  
 
-
+<img href="Rocket League" src="pictures/rl_camera_settings.png" width="300" style="border-radius: 10px;"/>
