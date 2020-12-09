@@ -2,7 +2,7 @@
 
 ## How to Join
 
-![server](./pictures/server.png)
+<img href="server" src="pictures/server.png" width="550" style="border-radius: 25px;"/>
 
 ## Commands
 

@@ -1,6 +1,6 @@
 # Chis Bot
 
-[![chisbot](./pictures/chisbot.png)](https://discord.com/api/oauth2/authorize?client_id=724657775652634795&permissions=8&scope=bot)
+[![chisbot](pictures/chisbot.png)](https://discord.com/api/oauth2/authorize?client_id=724657775652634795&permissions=8&scope=bot)
 
 A Discord bot that provides users with a simple interface to plan pick up Valorant games.  
 
