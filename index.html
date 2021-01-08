@@ -1,165 +1,222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="resources/icons/penguin.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" href="resources/icons/penguin.ico" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="../css/style.css">
+    <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 
-  <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
-  <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <title id="tab-title">Chris Alves</title>
+  </head>
 
-  <title id="tab-title">Chris Alves</title>
-</head>
+  <body>
+    <div class="card col-11 mx-auto">
+      <div class="card-body">
+        <div class="row">
+          <h2>About</h2>
+        </div>
 
-<body>
+        <div class="row py-1">
+          <p>
+            I am currently a Computer Science student at George Mason
+            University.
+          </p>
+        </div>
+        <div class="row py-1">
+          <p>
+            <b>Programming Languages:</b> Python, Java, C, C#, Lisp, Bash,
+            Javascript, HTML, CSS, JSON, YAML.
+          </p>
+        </div>
 
-  <div class="card col-11 mx-auto">
-    <div class="card-body">
+        <div class="row">
+          <h2>Projects</h2>
+        </div>
 
-      <div class="row">
-        <h2>About</h2>
-      </div>
-
-      <div class="row py-1">
-        <p>I am currently a Computer Science student at George Mason University.
-        </p>
-      </div>
-      <div class="row py-1">
-        <p><b>Programming Languages:</b> Python, Java, C, C#, Lisp, Bash, Javascript, HTML, CSS, JSON, YAML.</p>
-      </div>
-
-      <div class="row">
-        <h2>Projects</h2>
-      </div>
-
-      <div class="row py-2">
-
-        <div class="col-sm d-flex my-1">
-          <div class="card card-body flex-fill h-100" style="border-radius: 20px">
-            <div class="card-body">
-              <h5 class="card-title">Discord Bot</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Python</h6>
-              <p class="card-text">A Discord Bot designed to help plan pick up Valorant matches.</p>
+        <div class="row py-2">
+          <div class="col-sm d-flex my-1">
+            <div
+              class="card card-body flex-fill h-100"
+              style="border-radius: 20px"
+            >
+              <div class="card-body">
+                <h5 class="card-title">Discord Bot</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Python</h6>
+                <p class="card-text">
+                  A Discord Bot designed to help plan pick up Valorant matches.
+                </p>
+              </div>
+              <div class="btn-toolbar" role="toolbar">
+                <a href="/chis-bot/" class="btn btn-secondary mx-2">Website</a>
+                <a
+                  href="https://github.com/Chrisae9/chis-bot"
+                  class="btn btn-secondary mx-2"
+                  >GitHub</a
+                >
+              </div>
             </div>
-            <div class="btn-toolbar" role="toolbar">
-              <a href="/chis-bot/" class="btn btn-secondary mx-2">Website</a>
-              <a href="https://github.com/Chrisae9/chis-bot" class="btn btn-secondary mx-2">GitHub</a>
+          </div>
+
+          <div class="col-sm d-flex my-1">
+            <div
+              class="card card-body flex-fill h-100"
+              style="border-radius: 20px"
+            >
+              <div class="card-body">
+                <h5 class="card-title">Split</h5>
+                <h6 class="card-subtitle mb-2 text-muted">React, JavaScript</h6>
+                <p class="card-text">
+                  A web app created to aid in splitting grocery receipts between
+                  roommates.
+                </p>
+              </div>
+              <div class="btn-toolbar" role="toolbar">
+                <a href="/split/" class="btn btn-secondary mx-2">Website</a>
+                <a
+                  href="https://github.com/Chrisae9/split"
+                  class="btn btn-secondary mx-2"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm d-flex my-1">
+            <div
+              class="card card-body flex-fill h-100"
+              style="border-radius: 20px"
+            >
+              <div class="card-body">
+                <h5 class="card-title">Mechanical Keyboard</h5>
+                <h6 class="card-subtitle mb-2 text-muted">C</h6>
+                <p class="card-text">
+                  A custom built mechanical keyboard using the DZ60 pcb layout.
+                  Flashed with QMK firmware.
+                </p>
+              </div>
+              <div class="btn-toolbar" role="toolbar">
+                <a href="/keyboard" class="btn btn-secondary mx-2">Website</a>
+                <a
+                  href="https://github.com/Chrisae9/qmk_firmware/tree/master/keyboards/dz60/keymaps/chrisae9"
+                  class="btn btn-secondary mx-2"
+                  >GitHub</a
+                >
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-sm d-flex my-1">
-          <div class="card card-body flex-fill h-100" style="border-radius: 20px">
-            <div class="card-body">
-              <h5 class="card-title">Split</h5>
-              <h6 class="card-subtitle mb-2 text-muted">React, JavaScript</h6>
-              <p class="card-text">A web app created to aid in splitting grocery receipts
-                between roommates.</p>
+        <div class="row">
+          <h2>Extras</h2>
+        </div>
+
+        <div class="row py-2">
+          <div class="col-sm d-flex my-1">
+            <div
+              class="card card-body flex-fill h-100"
+              style="border-radius: 20px"
+            >
+              <div class="card-body">
+                <h5 class="card-title">Minecraft Server</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Information</h6>
+                <p class="card-text">
+                  A collection of information/resources for the minecraft server
+                  hosted on <code>server.chis.dev</code>.
+                </p>
+              </div>
+              <div class="btn-toolbar" role="toolbar">
+                <a href="/minecraft/" class="btn btn-secondary mx-2">Website</a>
+              </div>
             </div>
-            <div class="btn-toolbar" role="toolbar">
-              <a href="/split/" class="btn btn-secondary mx-1">Website</a>
-              <a href="https://github.com/Chrisae9/split" class="btn btn-secondary mx-1">GitHub</a>
-              <a href="https://github.com/Chrisae9/split-backend" class="btn btn-secondary mx-1">Backend</a>
+          </div>
+
+          <div class="col-sm d-flex my-1">
+            <div
+              class="card card-body flex-fill h-100"
+              style="border-radius: 20px"
+            >
+              <div class="card-body">
+                <h5 class="card-title">Rocket League Custom Maps</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Tutorial</h6>
+                <p class="card-text">
+                  A quick tutorial to guide newcomers through the process of
+                  configuring custom maps for Rocket League.
+                </p>
+              </div>
+              <div class="btn-toolbar" role="toolbar">
+                <a href="/rocketleague/" class="btn btn-secondary mx-2"
+                  >Website</a
+                >
+                <a
+                  href="https://www.epicgames.com/store/en-US/product/rocket-league/home"
+                  class="btn btn-secondary mx-2"
+                  >Game Page</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm d-flex my-1">
+            <div
+              class="card card-body flex-fill h-100"
+              style="border-radius: 20px"
+            >
+              <div class="card-body">
+                <h5 class="card-title">2048</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Game</h6>
+                <p class="card-text">
+                  A broken javascript version of the game 2048. Enjoy!
+                </p>
+              </div>
+              <div class="btn-toolbar" role="toolbar">
+                <a href="/2048/" class="btn btn-secondary mx-2">Website</a>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="col-sm d-flex my-1">
-          <div class="card card-body flex-fill h-100" style="border-radius: 20px">
-            <div class="card-body">
-              <h5 class="card-title">Mechanical Keyboard</h5>
-              <h6 class="card-subtitle mb-2 text-muted">C</h6>
-              <p class="card-text">A custom built mechanical keyboard using the DZ60 pcb layout. Flashed with QMK
-                firmware.</p>
-            </div>
-            <div class="btn-toolbar" role="toolbar">
-              <a href="/keyboard" class="btn btn-secondary mx-2">Website</a>
-              <a href="https://github.com/Chrisae9/qmk_firmware/tree/master/keyboards/dz60/keymaps/chrisae9"
-                class="btn btn-secondary mx-2">GitHub</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row">
-        <h2>Extras</h2>
-      </div>
-
-      <div class="row py-2">
-
-        <div class="col-sm d-flex my-1">
-          <div class="card card-body flex-fill h-100" style="border-radius: 20px">
-            <div class="card-body">
-              <h5 class="card-title">Minecraft Server</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Information</h6>
-              <p class="card-text">A collection of information/resources for the minecraft server hosted on
-                <code>server.chis.dev</code>.
-              </p>
-            </div>
-            <div class="btn-toolbar" role="toolbar">
-              <a href="/minecraft/" class="btn btn-secondary mx-2">Website</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm d-flex my-1">
-          <div class="card card-body flex-fill h-100" style="border-radius: 20px">
-            <div class="card-body">
-              <h5 class="card-title">Rocket League Custom Maps</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Tutorial</h6>
-              <p class="card-text">A quick tutorial to guide newcomers through the process of configuring custom maps
-                for Rocket League.
-              </p>
-            </div>
-            <div class="btn-toolbar" role="toolbar">
-              <a href="/rocketleague/" class="btn btn-secondary mx-2">Website</a>
-              <a href="https://www.epicgames.com/store/en-US/product/rocket-league/home"
-                class="btn btn-secondary mx-2">Game Page</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm d-flex my-1">
-          <div class="card card-body flex-fill h-100" style="border-radius: 20px">
-            <div class="card-body">
-              <h5 class="card-title">2048</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Game</h6>
-              <p class="card-text">A broken javascript version of the game 2048. Enjoy!</p>
-            </div>
-            <div class="btn-toolbar" role="toolbar">
-              <a href="/2048/" class="btn btn-secondary mx-2">Website</a>
-            </div>
-          </div>
-        </div>
-
-
       </div>
     </div>
-  </div>
+  </body>
 
-</body>
+  <!-- Load the element definition -->
+  <script
+    type="module"
+    src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
+  ></script>
 
-<!-- Load the element definition -->
-<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+  <!-- jQuery, Popper.js, and Bootstrap JS -->
+  <script
+    type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"
+  ></script>
 
-<!-- jQuery, Popper.js, and Bootstrap JS -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-  integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-
-<script src="../js/default.js"></script>
-
+  <script src="../js/default.js"></script>
 </html>
