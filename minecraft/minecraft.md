@@ -50,4 +50,3 @@ Here is a list of commands that are not part of vanilla minecraft but are on the
 | /warps                     | Gives you a list of warps.               |
 | /warp set \<warp name\>    | Sets a warp point at the place you are.  |
 | /warp delete \<warp name\> | Deletes a warp point you've set.         |
-
